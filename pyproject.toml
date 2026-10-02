@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "perfmetrics"
+version = "0.1.0"
+description = "页面性能指标（FCP/LCP/CLS/TBT/TTI）统一口径计算库"
+requires-python = ">=3.10"
+
+[tool.setuptools]
+packages = ["perfmetrics"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
